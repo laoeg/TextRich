@@ -10,7 +10,7 @@ A composite rich text component.
 
 ### Code
 
-```aidl
+```
 TextRich(
   "TextRich example app",
   matchTexts: const ["exa"],
