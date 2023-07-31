@@ -13,3 +13,7 @@
 ## 0.0.4
 
 * remove plugin_platform_interface
+
+## 0.0.5
+
+* update README
