@@ -6,7 +6,7 @@ A composite rich text component.
 
 ### Screenshot
 
-<img src="img.png" alt="drawing" width="200"/>
+<img src="https://github.com/laoeg/TextRich/blob/main/img.png" alt="drawing" width="200"/>
 
 ### Code
 
