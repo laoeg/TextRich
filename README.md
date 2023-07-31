@@ -1,6 +1,6 @@
 # textrich
 
-A new Flutter project.
+A composite rich text component.
 
 ## Getting Started
 
