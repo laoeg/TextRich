@@ -1,15 +1,38 @@
-# textrich
+# TextRich
 
 A composite rich text component.
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+### Screenshot
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="img.png" alt="drawing" width="200"/>
 
+### Code
+
+```aidl
+              TextRich(
+                "TextRich example app",
+                matchTexts: const ["exa"],
+                matchStyles: const [TextStyle(color: Colors.red)],
+              ),
+              TextRich(
+                "TextRich example app",
+                matchTexts: const ["exa", "a"],
+                matchStyles: const [TextStyle(color: Colors.red)],
+              ),
+              TextRich(
+                "TextRich example app",
+                matchTexts: const ["exa", "a"],
+                matchStyles: const [TextStyle(color: Colors.red), TextStyle(color: Colors.blue)],
+              ),
+              TextRich(
+                "TextRich example app",
+                matchTexts: const ["exa", "a"],
+                matchStyles: const [TextStyle(color: Colors.red,fontStyle: FontStyle.italic,fontSize: 30,decoration: TextDecoration.underline), TextStyle(color: Colors.blue)],
+                onTap: (value){
+                  print('Tap value :$value');
+                },
+                style: const TextStyle(color: Colors.black,fontSize: 16),
+              ),
+```
